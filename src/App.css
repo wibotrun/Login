@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  display: flex;
+  border-radius: 5%;
+  width: 700px;
+  height: 500px;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(128, 128, 128, 0.672);
+  background-color: white;
+}
+
+body {
+  background: rgb(34,193,195);
+}
+
+.Imagenseguridad {
+  width: 270px;
+  height: 170px;
+
+}
+
+input {
+  border-radius: 3px;
+  border: 1px solid grey;
+  margin: 8px;
+  height: 3vh;
+  text-align: center;
+}
+
+.inputCorto {
+  width: 40%;
+
+}
+
+.inputCorto2 {
+  width: 150px;
+
+}
+
+.inputLargo {
+  width: 84%;
+}
+
+.ContenedorGrande1 {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  width: 600px;
+  height: 300px;
+  margin: 5%;
+}
+
+.ContenedorGrande2 {
+
+  display: block;
+  width: 350px;
+}
+
+span.rojo {
+  font-weight: bold;
+  font-size: x-small;
+}
+
+.HeaderDiv {
+
+  width: 150px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+button {
+  height: 35px;
+  margin: 25px;
+
+}
+
+.botonBlanco {
+  background-color: white;
+  color: blue;
+  border: 0px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.botonAzul {
+  background-color: blue;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.botonBlanco:hover {
+  background-color: blue;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.botonAzul:hover {
+  background-color: rgba(65, 61, 61, 0.633);
+  color: blue;
+  border: 0px;
+  font-weight: bold;
+  border-radius: 3px;
+}
